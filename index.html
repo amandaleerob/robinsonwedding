@@ -1,20 +1,10 @@
-<!--AMANDA ROBINSON PORTFOLIO PROJECT
-
-  CURRENT DOCUMENT: INDEX.HTML
-
-NOTES:
-  - USING BOOTSTRAP 
-
--->
-
 <!DOCTYPE html>
 <html>
-<!----------------------------------------------------------->
-<!----------------------------------------------------------->
-<!-------------------- HEAD SECTION ------------------------->
-<!----------------------------------------------------------->
   <head>
+    <link rel="shortcut icon" href="onepanda.ico" type="image/ico">
     <title>Amanda Robinson</title>
+    <meta charset"utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,96 +13,66 @@ NOTES:
       <script src="../../assets/js/respond.min.js"></script>
     <! [endif]-->
     <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Crimson+Text' rel='stylesheet' type='text/css'>
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
   </head>
-<!----------------------------------------------------------->
-<!----------------------------------------------------------->
-<!-------------------- BODY SECTION ------------------------->
-<!----------------------------------------------------------->
   <body>
     <div class="container">
-<!-------------------- BODY: NAVBAR ------------------------->
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand myName" href="index.html">
-              Amanda Robinson
+              Robinson
+              <!-- <img class="myLogo" height="35px" src="images/onepanda.png" type="img/png">    -->
+              Wedding
             </a>
           </div>
-          <ul class="nav navbar-nav list-inline">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li> 
-          </ul>
+          <div class="stickyHeader"></div>
+          <div class="table menu">
+            <ul class="nav navbar-nav list-inline myLinks">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="#target1">RSVP</a></li>
+              <li><a href="#target2">Colors and Theme</a></li>
+              <li><a href="#target3">Registry</a></li>
+              <li><a href="#target4">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
-    <div class="belowNav"> <!-- everything below nav -->
-<!-------------------- BODY: JUMBOTRON ------------------------->
-      
-      <div class="jumbotron">
-        <h1>Hello World!</h1>
-        <p class="lead">This is an intro paragraph that will probably get replaced with some pictures. I want to make az site that is dynamic and looks good to users on different platforms.</p>
-<!--
-        <p class="btn-group">
-          <a class="btn btn-success btn-lg" href="#">Learn More</a>
-          <a class="btn btn-default btn-lg" href="#">Portfolio</a>
-        </p>
--->
-      </div>
-<!-------------------- BODY: THUMBNAILS ------------------------->
-
-      <div class="row">
-      <div class="col-sm-4">
-        <a href="images/factpanda.jpg" class="thumbnail">
-          <h2 class="smallHeader">Developer</h2>
-          <img src="images/factpanda.jpg" alt="Pulpit Rock" class="img-responsive">
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="images/rainpanda.jpg" class="thumbnail">
-          <h2 class="smallHeader">Educator</h2>
-          <img src="images/rainpanda.jpg" alt="Moustiers Sainte Marie" class="img-responsive">
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="images/sciencepanda.jpg" class="thumbnail"> 
-        <h2 class="smallHeader">Designer</h2>
-          <img src="images/sciencepanda.jpg" alt="Cinque Terre" class="img-responsive">
-        </a>
-      </div>
-    </div>
-
-<!-------------------- BODY: FOOTER  ------------------------->
-      
-  <div id="footerSection"></div>
-
-      
-<!-------------------- BODY: FOOTER  ------------------------->
-<!--
-      
-    <div class="row footerAll">
-        <div class="col-sm-4 footerLeft">
-        <div class="allHexagons">
-          <a href="https://twitter.com/amandaleerob" target="_blank"><img src="icons/Twitter%20Bluegreen.png"></a>
-            <a href="#" target="_blank"><img src="icons/Pinterest%20Peach.png"/></a>
-            <a href="#"><img src="icons/Email%20Moss.png"></a>
-            <br>
-            <div class="bottomIcons">
-              <a><img src="icons/White%20Spacer%20Small.png"></a>
-              <a href="#"><img src="icons/Facebook%20Chalky%20Blue.png"></a>
-              <a href="#"><img src="icons/Instagram%20Rose.png"></a>
-            </div>
+      <div class="jumbotron jumboPhotos">
+        <div class="frontPageText">
+          <h3>Date:</h3>
+          <h3>Location:</h3>
+          
         </div>
+        <div class="frontPage">
+          <iframe width=100%; height=100% src="http://s1268.photobucket.com/user/amandaleerob/embed/slideshow/Robinson%20Wedding"></iframe>
         </div>
-        <div class="col-sm-8 footerRight">
-        <div class="coloredLine">
-        &copy; Amanda Robinson Portfolio</div>
-        </div>
-    </div>
-      
--->
-    </div> <!--everything below nav-->
-<!-------------------- DOC AND BODY: CLOSE  ------------------------->
-    </div>
+      </div>
+      <div id="target1"></div>
+      <div class="jumbotron jumboTop">
+        <h1>RSVP</h1>
+        <p>Coming Soon</p>
+      </div>
+      <div id="target2"></div>
+      <div class="jumbotron jumboMiddle">
+        <h1>Colors and Theme</h1>
+        <p>Information</h1>
+      </div>
+      <div id="target3"></div>
+      <div class="jumbotron jumboBottom">
+        <h1>Registry</h1>
+        <p>Hello</p>
+      </div>
+      <div id="target4"></div>
+      <div class="jumbotron jumboLast">
+        <h1>Contact</h1>
+        <p>Contact infomation</p>
+      </div>
+      <div class="footer">
+        <p>&copy</p>
+      </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="jquery.js" type="text/javascript"></script>
+    </div> <!--container -->
   </body>
 </html>
