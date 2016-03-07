@@ -1,28 +1,36 @@
 @media only screen and (max-width: 850px) {
     body {
-        background-color: lightblue;
     }
     .mainBody {
       margin-top: 30%;
     }
     .otherBody {
       margin-top:50%;
-      background-color: pink;
     }
     .mylinks li {
       display: inline-block;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     body {
-        background-color: orange;
     }
     .mainBody {
-      margin-top: 40%;
+      margin-top: 30%;
     }
     .otherBody {
       margin-top:50%;
-      background-color: pink;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    }
+    .mainBody {
+      margin-top: 80%;
+    }
+    .otherBody {
+      margin-top:50%;
     }
 }
