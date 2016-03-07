@@ -9,9 +9,20 @@
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 150px;
+  height: 20%;
   background-color: #fff;
 }
+
+.mainBody {
+  position: fixed;
+  top: 20%;
+  width: 100%;
+  left: 0;
+  align-content: center;
+  background-color: #fff;
+}
+
+
 
 .myName {
   font-family: 'Julius Sans One', sans-serif, sans-serif;
@@ -76,7 +87,7 @@
 }
 
 a:link {
-  color: #d3ebf1;
+  color: #016a86;
   text-decoration: none;
 }
 /*a:visited {
@@ -87,51 +98,9 @@ a:hover {
 }
 a:active {
   color: #81c0d8;
-}
-
-.jumbotron {
-  text-align: center;
-  padding: 5px 15px 5px 15px;
-  color: #fff;
-  background-color: #b1dae9;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 50px;
-  margin-top: 225px;
-  height: 700px;
-  border-radius: 2%;
-  display: block;
-}
-
-.frontPageText {
-  right: 50%;
-  left: 50%;
-  position: inherit;
-  float: left;
-  margin-left: 10%;
-  height: 200px;
-  width: 300px;
-}
-
-.frontPageText h3 {
-  text-align: left;
-}
-
-.frontPage {
-  content: center;
-  right: 50%;
-  left: 50%;
-  position: inherit;
-  float: right;
-  margin-right: 10%;
-  height: 500px;
-  width: 680px;
+  border-color: #81c0d8;
 }
 
 .mainContainer {
   display: block;
-}
-
-.jumboPhotos {
-  background-color: #fff;
 }
