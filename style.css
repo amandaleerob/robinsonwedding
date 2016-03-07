@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  position: fixed;
+  position: static;
   top: 0;
   right: 0;
   left: 0;
@@ -15,8 +15,8 @@
 }
 
 .mainBody {
-  position: fixed;
-  margin-top: 15%;
+  position: static;
+  margin-top: 5%;
   width: 100%;
   left: 0;
   align-content: center;
@@ -25,15 +25,15 @@
 }
 
 #myFrame {
-  position: fixed;
+  position: static;
   width: 100%;
   height: 60%%;
 
 }
 
 .otherBody {
-  position: fixed;
-  margin-top:20%;
+  position: static;
+  margin-top: 5%;
   margin-left: 10%;
   width: 80%;
   margin-right: 10%;
@@ -122,4 +122,31 @@ a:active {
 
 .mainContainer {
   display: block;
+}
+
+
+
+.oneColor {
+  width: 15%;
+  height: 100px;
+  display: inline-block;
+
+}
+.oneColor:nth-child(1) {
+  background-color: #d3ebf1;
+}
+.oneColor:nth-child(2) {
+  background-color: #b1dae9;
+}
+.oneColor:nth-child(3) {
+  background-color: #81c0d8;
+}
+.oneColor:nth-child(4) {
+  background-color: #429bb8;
+}
+.oneColor:nth-child(5) {
+  background-color: #016a86;
+}
+.oneColor:nth-child(6) {
+  background-color: #19556b;
 }
